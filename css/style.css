@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #22222A;
+}
+
+/* Card1 start */
+.block {
+    width: 428px;
+    margin: 0 auto;
+}
+
+
+.block h1{
+    width: 338px;
+    margin: 175px auto 75px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+
+}
+
+.block label {
+    display: block;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 32px;
+    
+}
+
+.block input {
+    display: block;
+    margin-top: 22px;
+    border: 0;
+    border-bottom: 1px solid #AEB4C2;
+    width: 100%;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5A6684;
+    outline: none;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 66px;
+    background: #A497F9;
+    border: 1px solid #AEB4C2;
+    border-radius: 50px;
+    /* color: #FFFFFF !important; */
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 238px;
+    transition: 0.4s;
+    color: black !important;
+}
+
+.button:hover {
+    background-color: #F3F2FF;
+    color: #A497F9;
+    border-color: #A497F9 !important;
+    border: 1px solid;
+}
+
+.block img {
+    width: 143px;
+    margin: 0 auto;
+
+}
+
+.logo {    
+    width: 143px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+/* Card1 end */
+
+/* card2 start */
+.card2 {
+    width: 428px;
+    margin: 0 auto;
+}
+
+.card2 h3{
+    margin-top: 69px;
+    display: inline;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+   
+}
+
+.card2Text {
+    padding: 0 20px;
+    margin-top: 69px;
+}
+
+.card2 h3:first-child {
+    margin-right: 94px;
+}
+
+.content2 {
+    padding: 0 20px;
+    margin-bottom: 90px;
+}
+
+.box {
+    display: inline-block;
+    border: 1px solid #AEB4C2;
+    width: 90px;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.card2 h2 {
+    font-size: 22px;
+    line-height: 26px;
+    color: #22222A;
+    margin: 14px 45px 44px;
+}
+
+.card2 input {
+    font-size: 16px;
+    line-height: 150%;
+    color: #5A6684;
+    display: block;
+    width: 338px;
+    border: 0;
+    border-bottom: 1px solid #AEB4C2;
+    cursor: pointer;
+    margin: 0 45px 44px;
+}
+
+.logo2 {
+    width: 143px;
+    margin: 459px auto 45px;
+    
+}
+/* Card2 end */
+
+/* Card3 start */
+
+.card3 h3{
+    margin-top: 69px;
+    display: inline;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+   
+}
+
+.card3Text {
+    padding: 0 20px;
+    margin-top: 69px;
+}
+
+.card3 h3:first-child {
+    margin-right: 94px;
+}
+
+.content3 :nth-child(1) {
+    background-color: #FFEB80;
+}
+
+.content3 {
+    padding: 0 20px;
+    margin-bottom: 90px;
+}
+
+
+.box {
+    display: inline-block;
+    border: 1px solid #AEB4C2;
+    width: 90px;
+    height: 8px;
+    border-radius: 4px;
+}
+
+
+.card3 h2 {
+    font-size: 22px;
+    line-height: 26px;
+    color: #22222A;
+    margin: 14px 45px 44px;
+}
+
+.content4 {
+    margin: 16px 45px 44px;
+
+}
+
+.boxAnswr:hover {
+    background-color: #F3F2FF;
+    border-color: #A497F9;
+}
+
+
+
+.card3 .boxAnswr {
+    font-size: 16px;
+    line-height: 150%;
+    color: #5A6684;
+    display: block;
+    width: 338px;
+    height: 48px;
+    border: 1px solid #AEB4C2;
+    border-radius: 8px;
+    cursor: pointer;
+ 
+}
+
+/* Card3 end */
+
+/* Card4 start */
+.card4 h3{
+    margin-top: 69px;
+    display: inline;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+   
+}
+
+.card4Text {
+    padding: 0 20px;
+    margin-top: 69px;
+}
+
+.card4 h3:first-child {
+    margin-right: 94px;
+}
+
+.content5> #first, #second {
+    background-color: #FFEB80;
+}
+
+.content5 {
+    padding: 0 20px;
+    margin-bottom: 90px;
+}
+
+
+.box {
+    display: inline-block;
+    border: 1px solid #AEB4C2;
+    width: 90px;
+    height: 8px;
+    border-radius: 4px;
+}
+
+
+.card4 h2 {
+    font-size: 22px;
+    line-height: 26px;
+    color: #22222A;
+    margin: 14px 45px 44px;
+}
+
+.content6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 16px 45px 44px;
+
+}
+
+.emojiBox:hover {
+    background-color: #F3F2FF;
+    border-color: #A497F9;
+}
+
+
+.card4 .boxAnswr {
+    font-size: 16px;
+    line-height: 150%;
+    color: #5A6684;
+    display: block;
+    width: 338px;
+    height: 48px;
+    border: 1px solid #AEB4C2;
+    border-radius: 8px;
+    cursor: pointer;
+ 
+}
+
+.emojiBox {
+    display: block;
+    /* justify-content: space-around;
+    align-items: center; */
+    margin-bottom: 16px;
+    width: 160px;
+    height: 176px;
+    border-radius: 8px;
+    border: 1px solid #AEB4C2;
+}
+
+
+.emoji {
+    display: block;
+    width: 88px;
+    height: 88px;
+    margin: 30px 36px 22px 36px;
+   
+}
+
+h5 {
+    /* display: block; */
+    width: 128px;
+    height: 24px;
+    color: #5A6684;
+    margin: 0 16px 12px 16px;
+}
+/* Card4 end */
+/* Card5 start */
+.card5 h3{
+    margin-top: 69px;
+    display: inline;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.card5Text {
+    padding: 0 20px;
+    margin-top: 69px;
+}
+
+.card5 h3:first-child {
+    margin-right: 94px;
+}
+
+.content7> #first, #second, #third1 {
+    background-color: #FFEB80;
+}
+
+.content7 {
+    padding: 0 20px;
+    margin-bottom: 90px;
+}
+
+
+.box {
+    display: inline-block;
+    border: 1px solid #AEB4C2;
+    width: 90px;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.card5 h2 {
+    font-size: 22px;
+    line-height: 26px;
+    color: #22222A;
+    margin: 14px 45px 32px;
+}
+
+.content8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 16px 45px 44px;
+}
+
+.level1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+
+.levBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AEB4C2;
+    border-radius: 8px;
+    width: 61px;
+    height: 61px;
+    font-size: 24px;
+    line-height: 150%;
+    color: #5A6684;
+}
+
+.levBox:hover {
+    background-color: #F3F2FF;
+    border-color: #A497F9;
+}
+
+
+.level2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+/* Caer5 end */
+/* Card6 start */
+
+.photo {
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: 161px 134px 61px 134px;
+}
+
+.card6 h1 {
+    margin-top: 0px;
+}
+
+p {
+    display: block;
+    width: 338px;
+    height: 36px;
+    text-align: center;
+    margin: 0 auto 16px;
+}
+
+.card6 .button {
+    margin-top: 0 auto 269px;
+    
+}
+/* Card6 end */
+
